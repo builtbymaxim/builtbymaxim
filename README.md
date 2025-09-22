@@ -1,9 +1,11 @@
 <p align="center">
   <picture>
-    <source media="(min-resolution: 2dppx)" srcset="./assets/banner-2560x640.png">
-    <img src="./assets/banner-1280x320.png" width="980" alt="Finance · Health · Sustainability — Powered by Data Science & Analytics">
+    <source media="(min-resolution: 2dppx)" srcset="./assets/banner-2560.png">
+    <img src="./assets/banner-1280.png" width="980"
+         alt="Finance · Health · Sustainability — Powered by Data Science & Analytics">
   </picture>
 </p>
+
 
 # Hi, I’m Maxim (builtbymaxim)
 
