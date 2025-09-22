@@ -1,4 +1,4 @@
-![banner](./assets/banner.png)
+![Finance · Health · Sustainability — Powered by Data Science & Analytics](./assets/banner-1280x320.png)
 
 # Hi, I’m Maxim (builtbymaxim)
 
