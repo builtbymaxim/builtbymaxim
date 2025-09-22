@@ -1,4 +1,9 @@
-![Finance · Health · Sustainability — Powered by Data Science & Analytics](./assets/banner-1280x320.png)
+<p align="center">
+  <picture>
+    <source media="(min-resolution: 2dppx)" srcset="./assets/banner-2560x640.png">
+    <img src="./assets/banner-1280x320.png" width="980" alt="Finance · Health · Sustainability — Powered by Data Science & Analytics">
+  </picture>
+</p>
 
 # Hi, I’m Maxim (builtbymaxim)
 
@@ -29,7 +34,7 @@
 
 🔒 **Private (available upon request)**  
 - **FinSight** – AI-powered financial data pipeline & trading signals dashboard  
-- **GW-Pilot** – NLP pipeline for greenwashing risk detection in sustainability reports  
+- **GW-Pilot** – NLP pipeline for greenwashing risk detection in annual reports  
 - **Valuation Engine** – Automated valuation (DCF & comparables)  
 - **WU Registration Tool** – Process automation for academic administration  
 
