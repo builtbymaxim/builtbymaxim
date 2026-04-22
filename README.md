@@ -28,10 +28,8 @@ I'm a Business Informatics student at WU Vienna, specializing in Data Science, P
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 
 **AI & LLMs**
-![Claude API](https://img.shields.io/badge/Claude_API-D97757?logo=anthropic&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?logo=openai&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?logo=anthropic&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-000000?logo=cursor&logoColor=white)
 
 **Dashboards & BI**
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
