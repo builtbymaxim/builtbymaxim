@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 220" width="1280" height="220" role="img" aria-label="Quantitative Research, Privacy-first Apps, Applied NLP">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#1a1e24"/>
+      <stop offset="1" stop-color="#2b3038"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6e9ed"/>
+      <stop offset="1" stop-color="#9aa1ab"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <style>
+    .font { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .f { opacity: 0; animation: fade 1s ease-out forwards; }
+    .t1 { animation-delay: 0.2s; }
+    .d1 { animation-delay: 0.7s; }
+    .t2 { animation-delay: 1.0s; }
+    .d2 { animation-delay: 1.5s; }
+    .t3 { animation-delay: 1.8s; }
+    .chart { stroke-dasharray: 1500; stroke-dashoffset: 1500; animation: draw 4s ease-out 0.3s forwards; }
+    .pulse { animation: pulse 3s ease-in-out 4.3s infinite; opacity: 0; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+  </style>
+
+  <rect width="1280" height="220" fill="url(#bg)"/>
+  <rect width="1280" height="220" fill="url(#grid)"/>
+
+  <path class="chart" d="M0 204 L80 199 L150 202 L220 193 L290 196 L360 186 L430 190 L500 180 L570 184 L640 174 L710 178 L780 167 L850 171 L920 158 L990 163 L1060 151 L1130 155 L1200 143 L1280 138"
+        fill="none" stroke="#a8b0ba" stroke-opacity="0.22" stroke-width="2"/>
+  <circle class="pulse" cx="1280" cy="138" r="5" fill="#c3c9d1"/>
+
+  <text class="font" x="640" y="112" font-size="30" letter-spacing="1.5" text-anchor="middle" fill="url(#silver)" xml:space="preserve"><tspan class="f t1">Quantitative Research</tspan><tspan class="f d1" fill="#6b727c">   ·   </tspan><tspan class="f t2">Privacy-first Apps</tspan><tspan class="f d2" fill="#6b727c">   ·   </tspan><tspan class="f t3">Applied NLP</tspan></text>
+</svg>
