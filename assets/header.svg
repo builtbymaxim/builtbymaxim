@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Maxim - Quant Developer, AI and Data Science">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 220" width="1280" height="220" role="img" aria-label="Quantitative Research, Privacy-first Apps, Applied NLP">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -7,12 +7,7 @@
     </linearGradient>
     <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#e6e9ed"/>
-      <stop offset="1" stop-color="#8d949e"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a8b0ba" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#a8b0ba" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#a8b0ba" stop-opacity="0"/>
+      <stop offset="1" stop-color="#9aa1ab"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
@@ -20,39 +15,26 @@
   </defs>
   <style>
     .font { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
-    .title { animation: fadeUp 1.2s ease-out both; }
-    .sub { animation: fadeUp 1.2s ease-out 0.4s both; }
-    .rule { animation: grow 1.4s ease-out 0.6s both; transform-origin: 640px 0; }
-    .chart { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 3.5s ease-out 0.3s forwards; }
-    .rot { opacity: 0; animation: cycle 12s ease-in-out infinite; }
-    .r2 { animation-delay: 4s; }
-    .r3 { animation-delay: 8s; }
-    .cursor { animation: blink 1s step-end infinite; }
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .f { opacity: 0; animation: fade 1s ease-out forwards; }
+    .t1 { animation-delay: 0.2s; }
+    .d1 { animation-delay: 0.7s; }
+    .t2 { animation-delay: 1.0s; }
+    .d2 { animation-delay: 1.5s; }
+    .t3 { animation-delay: 1.8s; }
+    .chart { stroke-dasharray: 1500; stroke-dashoffset: 1500; animation: draw 4s ease-out 0.3s forwards; }
+    .pulse { animation: pulse 3s ease-in-out 4.3s infinite; opacity: 0; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fade { to { opacity: 1; } }
     @keyframes draw { to { stroke-dashoffset: 0; } }
-    @keyframes cycle { 0% { opacity: 0; } 5% { opacity: 1; } 28% { opacity: 1; } 33% { opacity: 0; } 100% { opacity: 0; } }
-    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
   </style>
 
-  <rect width="1280" height="300" fill="url(#bg)"/>
-  <rect width="1280" height="300" fill="url(#grid)"/>
+  <rect width="1280" height="220" fill="url(#bg)"/>
+  <rect width="1280" height="220" fill="url(#grid)"/>
 
-  <path class="chart" d="M0 250 L80 238 L150 244 L220 222 L290 230 L360 205 L430 214 L500 190 L570 198 L640 176 L710 186 L780 160 L850 170 L920 142 L990 152 L1060 124 L1130 134 L1200 104 L1280 92"
-        fill="none" stroke="#a8b0ba" stroke-opacity="0.18" stroke-width="2"/>
+  <path class="chart" d="M0 204 L80 199 L150 202 L220 193 L290 196 L360 186 L430 190 L500 180 L570 184 L640 174 L710 178 L780 167 L850 171 L920 158 L990 163 L1060 151 L1130 155 L1200 143 L1280 138"
+        fill="none" stroke="#a8b0ba" stroke-opacity="0.22" stroke-width="2"/>
+  <circle class="pulse" cx="1280" cy="138" r="5" fill="#c3c9d1"/>
 
-  <g class="title">
-    <text x="640" y="128" text-anchor="middle" class="font" font-size="76" font-weight="600" letter-spacing="6" fill="url(#silver)">MAXIM</text>
-  </g>
-  <g class="sub">
-    <text x="640" y="170" text-anchor="middle" class="font" font-size="22" letter-spacing="3" fill="#a8b0ba">QUANT DEVELOPER · AI &amp; DATA SCIENCE</text>
-  </g>
-  <rect class="rule" x="440" y="192" width="400" height="1.5" fill="url(#line)"/>
-
-  <g class="mono" font-size="18" fill="#c3c9d1" text-anchor="middle">
-    <text class="rot r1" x="640" y="232">&gt; Quant Developer &amp; Platform Engineer<tspan class="cursor">_</tspan></text>
-    <text class="rot r2" x="640" y="232">&gt; MSc AI &amp; Data Science<tspan class="cursor">_</tspan></text>
-    <text class="rot r3" x="640" y="232">&gt; Privacy-first apps · Quant research · Applied NLP<tspan class="cursor">_</tspan></text>
-  </g>
+  <text class="font" x="640" y="112" font-size="30" letter-spacing="1.5" text-anchor="middle" fill="url(#silver)" xml:space="preserve"><tspan class="f t1">Quantitative Research</tspan><tspan class="f d1" fill="#6b727c">   ·   </tspan><tspan class="f t2">Privacy-first Apps</tspan><tspan class="f d2" fill="#6b727c">   ·   </tspan><tspan class="f t3">Applied NLP</tspan></text>
 </svg>

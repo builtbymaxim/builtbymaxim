@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Maxim - Quant Developer, AI & Data Science"/>
+  <img src="assets/header.svg" width="100%" alt="Quantitative Research · Privacy-first Apps · Applied NLP"/>
 </p>
 
 ---
@@ -7,7 +7,6 @@
 I work as a Quant Developer and Platform Engineer in asset management and am pursuing an MSc in AI & Data Science. On the side I build my own products end to end: native iOS apps, trading research tooling and NLP pipelines. I care about two things in particular: results that survive out-of-sample and null-model testing, and software that is private by design.
 
 **At a glance**
-- **Now:** Quant Developer / Platform Engineer, asset management
 - **Studying:** MSc AI & Data Science
 - **Background:** BSc Business Informatics, WU Vienna (thesis: NLP-based greenwashing detection)
 - **Based in:** Vienna, Austria
