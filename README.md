@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f2329,100:3a3f47&height=190&section=header&text=Maxim&fontSize=46&fontColor=d0d4da&animation=fadeIn&fontAlignY=34&desc=Quant%20Developer%20%C2%B7%20AI%20%26%20Data%20Science&descAlignY=56&descSize=18" width="100%" alt="header"/>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=A8B0BA&center=true&vCenter=true&width=620&lines=Quant+Developer+%26+Platform+Engineer;MSc+AI+%26+Data+Science;Privacy-first+apps+%C2%B7+Quant+research+%C2%B7+Applied+NLP" alt="Typing SVG" />
+  <img src="assets/header.svg" width="100%" alt="Quantitative Research · Privacy-first Apps · Applied NLP"/>
 </p>
 
 ---
@@ -11,7 +7,6 @@
 I work as a Quant Developer and Platform Engineer in asset management and am pursuing an MSc in AI & Data Science. On the side I build my own products end to end: native iOS apps, trading research tooling and NLP pipelines. I care about two things in particular: results that survive out-of-sample and null-model testing, and software that is private by design.
 
 **At a glance**
-- **Now:** Quant Developer / Platform Engineer, asset management
 - **Studying:** MSc AI & Data Science
 - **Background:** BSc Business Informatics, WU Vienna (thesis: NLP-based greenwashing detection)
 - **Based in:** Vienna, Austria
@@ -66,16 +61,6 @@ I work as a Quant Developer and Platform Engineer in asset management and am pur
 
 ---
 
-### GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=builtbymaxim&show_icons=true&hide_border=true&hide_rank=true&bg_color=0d1117&title_color=d0d4da&text_color=a8b0ba&icon_color=a8b0ba" height="150" alt="stats"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=builtbymaxim&layout=compact&hide_border=true&bg_color=0d1117&title_color=d0d4da&text_color=a8b0ba" height="150" alt="languages"/>
-</p>
-
----
-
 ### Connect
 
 <p align="center">
@@ -85,5 +70,5 @@ I work as a Quant Developer and Platform Engineer in asset management and am pur
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3f47,50:1f2329,100:0d1117&height=110&section=footer" width="100%" alt="footer"/>
+  <img src="assets/footer.svg" width="100%" alt=""/>
 </p>
