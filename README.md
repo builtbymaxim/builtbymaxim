@@ -1,21 +1,32 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Maxim&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=builtbymaxim&descAlignY=55&descSize=18" width="100%" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f2329,100:3a3f47&height=190&section=header&text=Maxim&fontSize=46&fontColor=d0d4da&animation=fadeIn&fontAlignY=34&desc=Quant%20Developer%20%C2%B7%20AI%20%26%20Data%20Science&descAlignY=56&descSize=18" width="100%" alt="header"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Data+Scientist+%26+Analyst;Business+Informatics+%40+WU+Vienna;Privacy-first+apps+%C2%B7+Quant+research+%C2%B7+Applied+NLP" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=A8B0BA&center=true&vCenter=true&width=620&lines=Quant+Developer+%26+Platform+Engineer;MSc+AI+%26+Data+Science;Privacy-first+apps+%C2%B7+Quant+research+%C2%B7+Applied+NLP" alt="Typing SVG" />
 </p>
 
 ---
 
-I'm a Business Informatics student at WU Vienna, specializing in Data Science, Production Management, and Business Information Systems. I build end-to-end data pipelines, machine learning models, and AI-powered applications across finance, health, and sustainability domains. I'm an AI enthusiast who works actively with LLMs, transformer models, and modern AI tooling to push what's possible in data-driven products.
+I work as a Quant Developer and Platform Engineer in asset management and am pursuing an MSc in AI & Data Science. On the side I build my own products end to end: native iOS apps, trading research tooling and NLP pipelines. I care about two things in particular: results that survive out-of-sample and null-model testing, and software that is private by design.
+
+**At a glance**
+- **Now:** Quant Developer / Platform Engineer, asset management
+- **Studying:** MSc AI & Data Science
+- **Background:** BSc Business Informatics, WU Vienna (thesis: NLP-based greenwashing detection)
+- **Based in:** Vienna, Austria
 
 ---
 
-### Currently
+### Featured Projects
 
-- Hardening **HealthPulse** toward an end-to-end encrypted, local-first architecture
-- Stress-testing trading strategies in **FinSight** against null models before trusting any backtest
+| Project | Description | Stack |
+|---|---|---|
+| **HealthPulse** *(private, TestFlight beta)* | iOS fitness and recovery app with Apple Watch and HealthKit: workouts, training plans and nutrition with an AI food scanner. Readiness and training load (HRV and resting-HR baselines, sleep, EWMA ACWR) are computed on-device in pure Swift. Built privacy-first: on-device AES-GCM-256 encryption with keys in iCloud Keychain and a BIP39 recovery phrase, Supabase behind row-level security; migration to a fully local-first data model is in progress | SwiftUI · SwiftData · CryptoKit · FastAPI · Supabase |
+| **FinSight** *(private)* | Personal, local-first research tool for trend-following (Donchian) position trading. Strategy lab with backtests, parameter sweeps, walk-forward and Monte Carlo analysis, plus significance tests against bootstrap and GARCH null models. Feeds a paper auto-trader with a persistent killswitch, a durable trade ledger and an Austrian crypto-tax engine. Honest finding so far: a pre-registered 10-asset portfolio beats SPY, but not its own null | Python · FastAPI · React · SQLite |
+| **GW-Pilot** *(Bachelor thesis, private)* | NLP pipeline scoring ESG reports on greenwashing risk (vague language, specificity, emission consistency). Applied to 46 reports from 12 asset managers; validated against 42 domain experts across 840 ratings | Python · spaCy · BART-MNLI |
+| [**marbl.energy**](https://github.com/builtbymaxim/DsLab25W_marbl.energy) *(university DS lab)* | Day-ahead electricity price forecasting across European wholesale markets with a Mix-of-Experts setup: an XGBoost regime classifier routing to specialized regressors | Python · XGBoost · Streamlit |
+| [**Noema**](https://github.com/builtbymaxim/noema) *(prototype)* | Digital wellness app to help you use your phone less: energy check-ins, mood journaling and trend dashboards | React · TypeScript |
 
 ---
 
@@ -55,29 +66,24 @@ I'm a Business Informatics student at WU Vienna, specializing in Data Science, P
 
 ---
 
-### Featured Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| [**HealthPulse**](https://github.com/builtbymaxim/healthpulse-analytics) | Privacy-first iOS fitness app. Biometrics and journal entries are encrypted on-device (AES-GCM-256) before sync; the backend only stores ciphertext. Readiness and training autoregulation run fully on-device | SwiftUI · SwiftData · CryptoKit · Supabase · FastAPI |
-| **FinSight** *(private)* | Local-first trading research lab for Donchian position trading: backtests, walk-forward, Monte Carlo and significance tests against simulated markets, plus a paper auto-trader with a persistent killswitch and an LLM copilot (FinBot) | Python · FastAPI · React · SQLite |
-| **GW-Pilot** *(Bachelor thesis, private)* | NLP pipeline scoring ESG reports on greenwashing risk (vague language, specificity, emission consistency). Applied to 46 reports from 12 asset managers; validated against 42 domain experts across 840 ratings | Python · spaCy · BART-MNLI |
-| **marbl.energy** *(private)* | Day-ahead electricity price forecasting across European wholesale markets with a Mix-of-Experts setup (XGBoost regime classifier + specialized regressors) | Python · XGBoost · Streamlit |
-| [**Noema**](https://github.com/builtbymaxim/noema) *(prototype)* | Digital wellness app to help you use your phone less: energy check-ins, mood journaling and trend dashboards | React · TypeScript |
-| **Valuation Engine** *(early stage, private)* | Automated DCF and comparables modeling for small businesses, built for non-finance stakeholders | Python |
-
----
-
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=builtbymaxim&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=true" height="150" alt="stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=builtbymaxim&show_icons=true&hide_border=true&hide_rank=true&bg_color=0d1117&title_color=d0d4da&text_color=a8b0ba&icon_color=a8b0ba" height="150" alt="stats"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=builtbymaxim&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=builtbymaxim&layout=compact&hide_border=true&bg_color=0d1117&title_color=d0d4da&text_color=a8b0ba" height="150" alt="languages"/>
 </p>
 
 ---
 
-### Contact
+### Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxim-g-a20513253)
+<p align="center">
+  Open to conversations about quant engineering, machine learning and privacy-first products.
+  <br/><br/>
+  <a href="https://www.linkedin.com/in/maxim-g-a20513253"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3f47,50:1f2329,100:0d1117&height=110&section=footer" width="100%" alt="footer"/>
+</p>
